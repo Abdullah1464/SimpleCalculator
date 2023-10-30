@@ -36,3 +36,5 @@ def mod(x, y):
     if int(y) == 0:
         return "Cannot divide by zero"
     return str(int(x) % int(y))
+
+app.run(host="0.0.0.0",port=8080)
